@@ -51,15 +51,20 @@
         /* 小程序特有相关 */
         "appid" : "wx7f454f5e6386ed31",
         "setting" : {
-            "urlCheck" : true,
-            "minified" : true,
+            "urlCheck" : false,
+            "minified" : false,
             "checkSiteMap" : false
         },
         "usingComponents" : true,
-        "permission" : {
-            "scope.userLocation" : {
-                "desc" : ""
-            }
+        "permission" : {}
+    },
+    "h5" : {
+        "router" : {
+            "base" : "html5",
+            "mode" : "hash"
+        },
+        "devServer" : {
+            "https" : false
         }
     }
 }
